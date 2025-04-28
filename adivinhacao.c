@@ -18,11 +18,11 @@ int main () {
     printf("Jogue de novo!\n")
     }
     else {
-
-        if(chute > numeroescondido){
+        int maior = chute > numeroescondido
+        if(maior){
             printf("O número é menor\n")
         }
-        if(chute < numeroescondido){
+        else {
             printf("O número é maior\n")
         }
     }
